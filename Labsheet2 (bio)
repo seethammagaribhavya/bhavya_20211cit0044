@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: white;
+            margin: 1;
+            padding: 0;
+            text-align: center;
+        }
+        header{
+            background-color: black;
+            color: white;
+            height: 120px;
+            text-align: center;
+        }
+        header h1{
+            text-transform: capitalize;
+            padding-top: 40px;
+        }
+        footer{
+            background-color: black;
+            height: 120px;
+            color:aliceblue;
+            text-align: center;
+        }
+        section{
+            height: 65vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        footer p{
+            padding-top: 40px;
+        }
+        table tr td img{
+            height:180px;
+            width:100px;
+        }
+        footer p a{
+            color: aliceblue;
+        }
+        table{
+            height: 480px;
+            width: 480px;
+        }
+        table tr td img:hover{
+            /* transform: translate(2px,3px); */
+            transform: rotate(360deg);
+            transition: 2s;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Biodata</h1>
+    </header>
+    <section><table border="2">
+        <tr>
+            <th>NAME</th>
+            <td>BHAVYA</td>
+            <td rowspan="3"><img src="https://i.pinimg.com/736x/52/c6/65/52c665df0515dd447eb92544374cf543.jpg" alt=""> </td>
+        </tr>
+        <tr>
+            <th>AGE</th>
+            <th>20</th>
+        </tr>
+        <tr>
+            <th>DATE OF BIRTH</th>
+            <td>09-05-2004</td>
+        </tr>
+        <tr>
+            <th>ROLL NUMBER</th>
+            <td colspan="2">20211CIT0044</td>
+        </tr>
+        <tr>
+            <th>UID NUMBER</th>
+            <td colspan="2">20211010100845</td>
+        </tr>
+        <tr>
+            <th>BLOOD GROUP</th>
+            <td colspan="2">B+ve</td>
+        </tr>
+        <tr>
+            <th>SEMESTER</th>
+            <td colspan="2">6</td>
+        </tr>
+        <tr>
+            <th>MOBILE NUMBER</th>
+            <td colspan="2">8074288846</td>
+        </tr>
+        <tr>
+            <th>SECTION</th>
+            <td colspan="2">6-CIT-01</td>
+        </tr>
+    </table></section>
+    
+    <footer>
+        <p>&copy;2024 SEETHAMMAGARI BHAVYA <br />
+            <a href="#">Terms & Conditions</a></p>
+    </footer>
+</body>
+</html>
